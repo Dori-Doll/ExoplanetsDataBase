@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Planet {
+  pl_name: String!
+  hostname: String!
+  disc_year: Int
+  pl_bmasse: Float
+  sy_dist: Float
+}
+
+type Query {
+  planets: [Planet!]!
+}

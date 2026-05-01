@@ -1,0 +1,9 @@
+query GetPlanets {
+  planets {
+    pl_name
+    hostname
+    disc_year
+    pl_bmasse
+    sy_dist
+  }
+}
