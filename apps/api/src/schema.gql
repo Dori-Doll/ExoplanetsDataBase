@@ -12,4 +12,6 @@ type Planet {
 
 type Query {
   planets: [Planet!]!
+  planetByName(name: String!): Planet
+  planetsByHostname(hostname: String!): [Planet!]!
 }
